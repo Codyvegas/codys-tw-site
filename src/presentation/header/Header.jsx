@@ -3,23 +3,34 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="font-rock-salt text-2xl font-semibold text-green-800">
-      <Link to="/proof-of-work">
-        <button className="">
-          <span className="p-4">Proof Of Work</span>
+    <div className="overflow-auto">
+      <div className=" button-container mt-2 flex flex-col items-end  ">
+        {/* <div className="max-w-sm text-2xl font-semibold text-green-800"> */}
+        {/* <div className="max-w-sm py-2 text-2xl font-semibold text-green-800"> */}
+        {/* <Link to="/proof-of-work"> */}
+        <button className="mr-80 max-w-xs rounded bg-green-50 py-2 text-2xl font-semibold text-green-800  active:bg-red-600">
+          Proof Of Work
         </button>
-      </Link>
-      <Link to="/about">
-        <button>
-          <span>About</span>
+        {/* </Link> */}
+        {/* </div> */}
+        {/* <div className="max-w-sm py-2 text-2xl font-semibold text-green-800"> */}
+        {/* <Link to="/about"> */}
+        <button className=" mr-60 max-w-xs rounded bg-green-50 py-2 text-2xl font-semibold text-green-800  active:bg-red-600">
+          About
         </button>
-      </Link>
-      <Link to="/contact-me">
-        <button>
-          <span>Contact Me</span>
+        {/* </Link> */}
+        {/* </div> */}
+        {/* <div className="max-w-sm py-2 text-2xl font-semibold text-green-800"> */}
+        {/* <Link to="/contact-me"> */}
+        <button className=" mr-10 max-w-xs rounded bg-green-50 py-2 text-2xl font-semibold text-green-800  active:bg-red-600">
+          Contact Me
         </button>
-      </Link>
-      <img className=" scale-78 h-64 w-full" src={mainLogo} alt=""></img>
+        {/* </Link> */}
+        {/* </div> */}
+      </div>
+      <div className="background-img">
+        <img className="scale-70 h-80  min-w-full" src={mainLogo} alt=""></img>
+      </div>
     </div>
   );
 }
