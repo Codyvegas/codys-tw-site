@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Header from "./presentation/header/Header";
-// import footer from "./presentation/footer/Footer";
+import Footer from "./presentation/footer/Footer";
 import AppRoutes from "./Routes";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="app">
       <Header />
       <AppRoutes />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

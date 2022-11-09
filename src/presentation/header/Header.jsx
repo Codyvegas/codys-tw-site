@@ -6,7 +6,7 @@ function Header() {
     <div className="">
       <div className=" button-container mt-2 flex flex-col items-end  ">
         <Link to="/proof-of-work">
-          <button className=" mr-20 max-w-xs rounded-md px-8 py-2 pt-2 text-2xl font-semibold text-green-700 hover:text-green-600 active:bg-red-400">
+          <button className="mr-20 max-w-xs rounded-md px-8 py-2 pt-2 text-2xl font-semibold text-green-700 hover:text-green-600 active:bg-red-400">
             Proof Of Work
           </button>
         </Link>
@@ -21,13 +21,13 @@ function Header() {
           </button>
         </Link>
       </div>
-      {/* <div className="background-img"> */}
-      <img
-        className="min-w-full rounded-xl drop-shadow-xl hover:bg-blue-600"
-        src={mainLogo}
-        alt=""
-      ></img>
-      {/* </div> */}
+      <div className="background-img">
+        <img
+          className="min-w-full rounded-xl drop-shadow-xl"
+          src={mainLogo}
+          alt=""
+        ></img>
+      </div>
     </div>
   );
 }

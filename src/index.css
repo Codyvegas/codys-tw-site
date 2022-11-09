@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+  h1,
   h2,
   button {
     font-family: "Rock Salt";
