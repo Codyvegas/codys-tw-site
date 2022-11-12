@@ -4,34 +4,30 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="">
-      <div className="flex justify-center bg-white">
+      <div className="sticky top-0 flex justify-center bg-white">
         <Link to="/">
-          <button className=" ml-8 rounded-md px-8 py-2 text-xl font-semibold text-emerald-700 hover:text-blue-600 active:bg-teal-400">
+          <button className=" ml-8 rounded-md px-8 py-2 text-xl font-semibold text-cyan-600  hover:text-purple-500 active:bg-teal-400">
             Home
           </button>
         </Link>
         <Link to="/proof-of-work">
-          <button className=" rounded-md px-8 py-2 text-xl font-semibold text-emerald-700  hover:text-blue-600 active:bg-teal-400">
+          <button className=" rounded-md px-8 py-2 text-xl font-semibold text-cyan-600  hover:text-purple-500 active:bg-teal-400">
             Proof Of Work
           </button>
         </Link>
-        <Link to="/about">
-          <button className="rounded-md px-8 py-2 text-xl font-semibold text-emerald-700 hover:text-blue-600 active:bg-teal-400">
-            Contact Me
+        <Link to="/find-me">
+          <button className="rounded-md px-8 py-2 text-xl font-semibold text-cyan-600  hover:text-purple-500 active:bg-teal-400">
+            Find Me
           </button>
         </Link>
-        <Link to="/contact-me">
-          <button className="rounded-md px-8 py-2 text-xl font-semibold text-emerald-700 hover:text-blue-600 active:bg-teal-400">
+        <Link to="/about">
+          <button className="rounded-md px-8 py-2 text-xl font-semibold text-cyan-600  hover:text-purple-500 active:bg-teal-400">
             About
           </button>
         </Link>
       </div>
       <div className="background-img ">
-        <img
-          className="min-w-full rounded opacity-80"
-          src={mainLogo}
-          alt=""
-        ></img>
+        <img className="h-80 min-w-full" src={mainLogo} alt=""></img>
       </div>
     </div>
   );
