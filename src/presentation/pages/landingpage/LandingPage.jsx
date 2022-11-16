@@ -3,7 +3,7 @@ import headshot from "../../../assets/headshot.png";
 function LandingPage() {
   return (
     <div className="landing-page bg-slate-800">
-      <div className="m-auto flex w-6/12 justify-center drop-shadow-xl">
+      <div className=" m-auto flex w-6/12 justify-center drop-shadow-2xl">
         <div className="my-24 content-center rounded-3xl border-2 border-solid border-slate-600 bg-black px-12 ">
           <h1 className="mt-12 mb-4 animate-pulse text-center text-3xl text-purple-500	underline">
             Hi, Im Cody!

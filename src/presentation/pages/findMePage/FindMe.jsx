@@ -5,7 +5,7 @@ function FindMe() {
   return (
     <div className="bg-slate-800">
       <div className="m-auto flex w-6/12 justify-center">
-        <div className="my-24 rounded-3xl border-2 border-solid border-slate-600 bg-black px-12 drop-shadow-xl  ">
+        <div className="my-24 rounded-3xl border-2 border-solid border-slate-600 bg-black px-12 drop-shadow-xl">
           <h1 className=" mt-12 mb-4 animate-pulse text-center text-3xl	text-purple-500 underline">
             Codys Code
           </h1>
