@@ -10,8 +10,13 @@ function FindMe() {
             Codys Code
           </h1>
           <div className="mb-12 mt-6 h-64 rounded-3xl border-4 border-solid border-y-cyan-400 border-x-purple-500 bg-slate-900 p-12 text-2xl">
-            <div className="top container flex items-center hover:animate-pulse">
-              <img src={linkedin} className="mr-2 h-14"></img>
+            <div className=" top container flex items-center hover:animate-pulse">
+              <a
+                href=" https://www.linkedin.com/in/johnson-cody/"
+                target="_blank"
+              >
+                <img src={linkedin} className="mr-2 h-14"></img>
+              </a>
               <a
                 className=" text-blue-400 hover:text-blue-700"
                 href=" https://www.linkedin.com/in/johnson-cody/"
@@ -22,7 +27,9 @@ function FindMe() {
             </div>
             <br></br>
             <div className="bottom container flex items-center hover:animate-pulse">
-              <img className=" mr-2 h-14 rounded" src={github}></img>
+              <a href=" https://github.com/Codyvegas/ " target="_blank">
+                <img className=" mr-2 h-14 rounded" src={github}></img>
+              </a>
               <a
                 className=" text-blue-400 hover:text-blue-700"
                 href=" https://github.com/Codyvegas/ "

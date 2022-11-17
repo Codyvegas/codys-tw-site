@@ -28,7 +28,7 @@ function Header() {
       </div>
       <div className=" ">
         <img
-          className="z-10 h-80 min-w-full overflow-x-visible saturate-200"
+          className="z-10 h-80 min-w-full overflow-x-visible hue-rotate-15 saturate-200"
           src={mainLogo}
           alt=""
         ></img>
