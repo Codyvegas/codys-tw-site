@@ -2,12 +2,13 @@ import herbbanner from "../../../assets/herbbanner.jpg";
 import dripgod from "../../../assets/dripgod.jpg";
 import customerform from "../../../assets/customerform.jpg";
 import golfswing from "../../../assets/golfswing.jpg";
+import patent from "../../../assets/patent.jpg";
 
 function Proof() {
   return (
     <div className="bg-slate-800">
       <div className="proof-page-container flex bg-slate-800">
-        <div className=" m-12  w-1/3 justify-center rounded-2xl border-2 border-solid border-purple-700 bg-slate-900 px-12 text-xl text-white drop-shadow-xl hover:shadow-2xl">
+        <div className=" m-12 w-1/3 justify-center rounded-2xl border-2 border-solid border-purple-700 bg-slate-900 px-12 text-xl text-white drop-shadow-xl hover:shadow-2xl">
           <h1 className=" my-10 truncate text-center text-2xl text-purple-400">
             <b>Abstract Herbs</b>
           </h1>{" "}
@@ -52,7 +53,7 @@ function Proof() {
             ></img>
           </div>
         </div>
-        <div className="m-12 mb-auto w-1/3 justify-center rounded-2xl border-2 border-solid border-blue-600 bg-slate-900 px-12 text-xl text-white drop-shadow-xl hover:shadow-2xl">
+        <div className="m-12  w-1/3 justify-center rounded-2xl border-2 border-solid border-blue-600 bg-slate-900 px-12 text-xl text-white drop-shadow-xl hover:shadow-2xl">
           <h1 className="my-10 mb-auto truncate text-center text-2xl text-cyan-400">
             <b>My Portfolio Website</b>
           </h1>{" "}
@@ -76,6 +77,7 @@ function Proof() {
               design. This allows me to stay in line with the designers work and
               also my own ideas.
             </p>
+            <img className="my-6 scale-90 rounded-xl" src={patent}></img>
           </div>
         </div>
       </div>
