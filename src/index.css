@@ -12,7 +12,8 @@
 
 @layer base {
   p,
-  a {
+  a,
+  h3 {
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
 }
