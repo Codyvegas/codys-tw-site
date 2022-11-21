@@ -9,7 +9,7 @@ function Footer() {
           src={vegas}
           alt="The Best City in the World!"
         ></img>
-        <h1 className=" text-lg text-sky-400">Codyjohnson2015@yahoo.com</h1>
+        <p className=" text-2xl text-sky-400">Codyjohnson2015@yahoo.com</p>
       </div>
     </div>
   );

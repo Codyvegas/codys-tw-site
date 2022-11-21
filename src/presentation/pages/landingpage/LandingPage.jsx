@@ -5,7 +5,7 @@ function LandingPage() {
     <div className="landing-page bg-slate-800">
       <div className=" m-auto flex w-6/12 justify-center drop-shadow-2xl">
         <div className="my-24 content-center rounded-3xl border-2 border-solid border-slate-600 bg-black px-12 ">
-          <h1 className="mt-12 mb-4 animate-pulse pb-4 text-center text-3xl text-purple-500	underline">
+          <h1 className="mt-12 mb-4 animate-pulse pb-4 text-center text-5xl text-purple-500	">
             Hi, Im Cody!
           </h1>
           <p className=" text-center text-2xl text-cyan-400">
@@ -13,7 +13,7 @@ function LandingPage() {
             <br></br>I'm excited to show you what ive been working on!
           </p>
           <img
-            className=" z-10 mt-6 scale-90 rounded-3xl border-4 border-solid border-y-cyan-400 border-x-purple-500 bg-slate-900 transition duration-300 hover:translate-x-full hover:rotate-90 hover:scale-50"
+            className=" z-10 mt-6 scale-90 rounded-3xl border-4 border-solid border-y-cyan-400 border-x-purple-500 bg-slate-900 transition duration-1000 hover:scale-75"
             src={headshot}
             alt="A picture of me!"
           ></img>

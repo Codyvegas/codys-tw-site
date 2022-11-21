@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  h1,
   h2,
   button {
     font-family: "Rock Salt";
@@ -12,6 +11,7 @@
 
 @layer base {
   p,
+  h1,
   a,
   h3 {
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;

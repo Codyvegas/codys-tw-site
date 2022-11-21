@@ -7,16 +7,16 @@ import patent from "../../../assets/patent.jpg";
 function Proof() {
   return (
     <div className="bg-slate-800">
-      <div className="proof-page-container flex bg-slate-800">
-        <div className=" m-12 w-1/3 justify-center rounded-2xl border-2 border-solid border-purple-700 bg-slate-900 px-12 text-xl text-white drop-shadow-xl hover:shadow-2xl">
-          <h1 className=" my-10 truncate text-center text-2xl text-purple-400">
+      <div className="proof-page-container flex bg-slate-800 ">
+        <div className="m-12 mb-auto mt-24 w-1/3 justify-center rounded-2xl border-2 border-solid border-purple-700 bg-slate-900 px-12 text-xl text-white drop-shadow-xl hover:shadow-2xl">
+          <h1 className=" my-10 truncate text-center text-3xl text-purple-400 hover:animate-blob">
             <b>Abstract Herbs</b>
           </h1>{" "}
           <img
-            className="mt-6 rounded-xl border-2 border-solid border-slate-700 hover:animate-pulse "
+            className="mt-6 rounded-xl border-2 border-solid border-slate-700 brightness-150 hover:animate-pulse "
             src={herbbanner}
           ></img>
-          <div className="container my-6">
+          <div className="my-6">
             <p className="text-2xl text-white">
               This was my first time building a website using Reactjs. Its safe
               to say I love the way React works. <br></br>
@@ -30,8 +30,8 @@ function Proof() {
             </p>
           </div>
         </div>
-        <div className=" my-12 mb-auto w-1/3 justify-center rounded-2xl border-2 border-solid border-orange-500 bg-slate-900 px-12 text-xl text-white drop-shadow-xl hover:shadow-2xl  ">
-          <h1 className="my-10 truncate text-center text-2xl text-red-300 outline-white">
+        <div className="my-12 mt-24 mb-auto w-1/3 justify-center rounded-2xl border-2 border-solid border-orange-500 bg-slate-900 px-12 text-xl text-white drop-shadow-xl hover:shadow-2xl  ">
+          <h1 className="my-10 truncate text-center text-3xl text-red-300 outline-white hover:animate-blob">
             <b>Grip Gods</b>
           </h1>{" "}
           <img
@@ -53,13 +53,13 @@ function Proof() {
             ></img>
           </div>
         </div>
-        <div className="m-12  w-1/3 justify-center rounded-2xl border-2 border-solid border-blue-600 bg-slate-900 px-12 text-xl text-white drop-shadow-xl hover:shadow-2xl">
-          <h1 className="my-10 mb-auto truncate text-center text-2xl text-cyan-400">
+        <div className="m-12 mt-24 w-1/3 justify-center rounded-2xl border-2 border-solid border-blue-600 bg-slate-900 px-12 text-xl text-white drop-shadow-xl hover:shadow-2xl">
+          <h1 className="my-10 mb-auto truncate text-center text-3xl text-cyan-400 hover:animate-blob">
             <b>My Portfolio Website</b>
           </h1>{" "}
           <img
             src={golfswing}
-            className="mt-8 rounded-xl border-2 border-solid border-blue-400 shadow-2xl hover:animate-pulse"
+            className="mt-8 rounded-xl border-2 border-solid border-blue-400 shadow-2xl brightness-150 hue-rotate-15 hover:animate-pulse"
           ></img>
           <div className="container my-6">
             <p className="text-2xl text-white">
@@ -77,7 +77,10 @@ function Proof() {
               design. This allows me to stay in line with the designers work and
               also my own ideas.
             </p>
-            <img className="my-6 scale-90 rounded-xl" src={patent}></img>
+            <img
+              className="my-6 scale-90 rounded-xl brightness-150 hover:animate-pulse"
+              src={patent}
+            ></img>
           </div>
         </div>
       </div>
