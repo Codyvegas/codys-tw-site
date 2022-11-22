@@ -18,6 +18,26 @@
   }
 }
 
+.about-card {
+  @apply animate-pulse p-12 text-center text-3xl blur-sm duration-100 ease-in-out hover:animate-none hover:blur-0;
+}
+
+.about-div-style {
+  @apply m-12 mb-24 rounded-3xl border-2 border-solid bg-black px-12 drop-shadow-xl;
+}
+
+.header-button-style {
+  @apply ml-8 rounded-md px-8 py-2 text-xl font-semibold text-cyan-400 underline  hover:text-purple-500;
+}
+
+.proof-div-style {
+  @apply m-12 mb-auto mt-24 w-1/3 justify-center rounded-2xl border-2 border-solid  bg-slate-900 px-12 text-xl text-white drop-shadow-xl hover:shadow-2xl;
+}
+
+.proof-h1-style {
+  @apply my-10 truncate text-center text-3xl  hover:animate-blob;
+}
+
 *::-webkit-scrollbar {
   width: 12px;
 }

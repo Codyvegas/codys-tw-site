@@ -6,24 +6,16 @@ function Header() {
     <div className="">
       <div className="sticky top-0 z-20 flex h-12 justify-center bg-slate-800">
         <Link to="/">
-          <button className="ml-8 rounded-md px-8 py-2 text-xl font-semibold text-cyan-400 underline  hover:text-purple-500">
-            Home
-          </button>
+          <button className="header-button-style ml-8 ">Home</button>
         </Link>
         <Link to="/proof-of-work">
-          <button className=" rounded-md px-8 py-2 text-xl font-semibold text-cyan-400 underline  hover:text-purple-500 ">
-            Proof Of Work
-          </button>
+          <button className=" header-button-style  ">Proof Of Work</button>
         </Link>
         <Link to="/find-me">
-          <button className="rounded-md px-8 py-2 text-xl font-semibold text-cyan-400 underline hover:text-purple-500 ">
-            Find Me
-          </button>
+          <button className="header-button-style  ">Find Me</button>
         </Link>
         <Link to="/about">
-          <button className="rounded-md px-8 py-2 text-xl font-semibold text-cyan-400 underline hover:text-purple-500">
-            About
-          </button>
+          <button className="header-button-style ">About</button>
         </Link>
       </div>
       <div className=" ">
