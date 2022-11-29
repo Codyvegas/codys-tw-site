@@ -27,7 +27,7 @@
 }
 
 .header-button-style {
-  @apply ml-8 rounded-md px-8 py-2 text-xl font-semibold text-cyan-800  hover:text-purple-500;
+  @apply ml-8 rounded-md px-8 py-2 text-xl font-semibold text-blue-700  hover:text-purple-500;
 }
 
 .proof-div-style {

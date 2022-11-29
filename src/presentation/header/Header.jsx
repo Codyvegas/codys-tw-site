@@ -6,7 +6,7 @@ function Header() {
     <div>
       <div className="sticky top-0 z-20 flex justify-center bg-gradient-to-b from-blue-300 to-white">
         <Link to="/">
-          <button className="header-button-style ml-8 ">Home</button>
+          <button className="header-button-style ">Home</button>
         </Link>
         <Link to="/proof-of-work">
           <button className=" header-button-style">Proof Of Work</button>
