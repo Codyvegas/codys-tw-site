@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="">
-      <div className="sticky top-0 z-20 flex h-12 justify-center bg-slate-800">
+    <div>
+      <div className="sticky top-0 z-20 flex justify-center bg-gradient-to-b from-blue-300 to-white">
         <Link to="/">
           <button className="header-button-style ml-8 ">Home</button>
         </Link>
         <Link to="/proof-of-work">
-          <button className=" header-button-style  ">Proof Of Work</button>
+          <button className=" header-button-style">Proof Of Work</button>
         </Link>
         <Link to="/find-me">
           <button className="header-button-style  ">Find Me</button>

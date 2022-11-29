@@ -19,7 +19,7 @@
 }
 
 .about-card {
-  @apply animate-pulse p-12 text-center text-3xl blur-sm duration-100 ease-in-out hover:animate-none hover:blur-0;
+  @apply animate-pulse p-12 text-center align-middle text-3xl blur-sm duration-100 ease-in-out hover:animate-none hover:blur-0;
 }
 
 .about-div-style {
@@ -27,7 +27,7 @@
 }
 
 .header-button-style {
-  @apply ml-8 rounded-md px-8 py-2 text-xl font-semibold text-cyan-400 underline  hover:text-purple-500;
+  @apply ml-8 rounded-md px-8 py-2 text-xl font-semibold text-cyan-800  hover:text-purple-500;
 }
 
 .proof-div-style {
@@ -35,7 +35,7 @@
 }
 
 .proof-h1-style {
-  @apply my-10 truncate text-center text-3xl  hover:animate-blob;
+  @apply my-10 truncate text-center text-3xl hover:animate-blob;
 }
 
 *::-webkit-scrollbar {

@@ -7,7 +7,7 @@ import patent from "../../../assets/patent.jpg";
 function Proof() {
   return (
     <div className="bg-slate-800">
-      <div className="proof-page-container flex bg-slate-800 ">
+      <div className="flex flex-auto overflow-auto bg-slate-800 ">
         <div className="proof-div-style border-purple-700">
           <h1 className=" proof-h1-style text-purple-400 ">
             <b>Abstract Herbs</b>
@@ -49,7 +49,7 @@ function Proof() {
             </p>
             <img
               src={customerform}
-              className=" mt-8 rounded-xl border-2 border-solid border-black hover:animate-pulse"
+              className=" mt-8 rounded-xl border-2 border-solid hover:animate-pulse"
             ></img>
           </div>
         </div>
