@@ -18,7 +18,7 @@ function Header() {
           <button className="header-button-style ">About</button>
         </Link>
       </div>
-      <div className=" ">
+      <div>
         <img
           className="z-10 h-80 min-w-full overflow-x-visible hue-rotate-15 saturate-200"
           src={mainLogo}
